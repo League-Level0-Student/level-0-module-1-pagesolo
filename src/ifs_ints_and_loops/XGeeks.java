@@ -16,11 +16,17 @@ public class XGeeks {
 public static void main(String[] args) {
 
 		// 1. Save the superpower for each person in a variable.
-
+String Abby; 
+String Div;
+String Anakis;
+String Stick;
+String Lark;
 		// 2. Ask the user to enter a name. Store their answer in a variable.
-
+String name = JOptionPane.showInputDialog("What member of Mystical Roles do you want to know about?");
 		// 3. Show the superpower in a pop-up, depending on the name entered. 
-
+if (name.equals(Abby)) {
+	JOptionPane.showMessageDialog(null, "Abby is the master of lore and legend. The dice are her friends and her enemies.", "Abby", 1);
+}
 	}
 }
 
