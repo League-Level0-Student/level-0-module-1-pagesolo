@@ -5,7 +5,7 @@ package ifs_ints_and_loops;
 
 import javax.swing.JOptionPane;
 
-/**
+/*
  * Secret Message Box / Secure Messaging System
  * 
  * You want to leave a message on one of the Mac computers so that only your friend can read it.
